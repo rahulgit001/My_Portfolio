@@ -6,6 +6,7 @@
     <title>poartfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 <body>
     <!-- header part -->
@@ -397,8 +398,8 @@
         <span>Ask Me Question</span>
         <h2>Contact Me</h2>
     </div>
-    <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="78e541f1-d851-4231-9e76-13e9ad02bf17">
+    <form id="contactForm">
+        
         <input type="text" placeholder="Your Name">
         <input type="text" placeholder="Your Email">
         <input type="text" placeholder="Your Address">

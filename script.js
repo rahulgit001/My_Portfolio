@@ -234,3 +234,22 @@ menuIcon.addEventListener('click', () => {
 
 
 // ----------------- data scrolling-----------------------------
+// ---------------------add contact with email------------------------------------
+
+  (function() {
+    emailjs.init("FjnSbqKDd4Rb2m7_N"); // e.g., emailjs.init("5sdf123ABC456");
+  })();
+
+
+//   -----------------------------------------------------
+ document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm("service_fzurmlj", "merahullogan7@gmail.com", this)
+      .then(() => {
+        alert("Message sent successfully!");
+        document.getElementById("contactForm").reset();
+      }, (error) => {
+        alert("Failed to send message: " + error.text);
+      });
+  });
