@@ -245,7 +245,7 @@ menuIcon.addEventListener('click', () => {
  document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
-    emailjs.sendForm("service_fzurmlj", "merahullogan7@gmail.com", this)
+    emailjs.sendForm("service_fzurmlj", "template_pxapq75", this)
       .then(() => {
         alert("Message sent successfully!");
         document.getElementById("contactForm").reset();
