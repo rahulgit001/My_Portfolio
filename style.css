@@ -1252,7 +1252,7 @@ section {
 
 /* skill-right */
 .Porfessional{
-    display: grid;
+    /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */
 }
 .box-fl{
