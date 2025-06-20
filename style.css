@@ -1255,10 +1255,10 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
 } */
-.box-fl{
+.Porfessional .box-fl{
     display: flex;
 }
-.boxflm{
+.Porfessional .boxflm{
     display: flex;
 }
 .box{
