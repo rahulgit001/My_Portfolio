@@ -1256,7 +1256,7 @@ section {
     grid-template-columns: 1fr 1fr;
 }
 .box-fl{
-    display: flex;
+    /* display: flex; */
 }
 .boxflm{
     /* display: flex; */
