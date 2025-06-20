@@ -1221,21 +1221,32 @@ section {
     box-shadow: var(--neon-box-shadow);
 }
 .skill-bar .bar .html{
-    width: 75%;
+    width: 90%;
     animation: html 2s;
 }
 .skill-bar .bar .css{
-    width: 65%;
+    width: 90%;
     animation: css 3s;
 }
 .skill-bar .bar .javascript{
-    width: 50%;
+    width: 85%;
     animation: javascript 4s;
 }
 .skill-bar .bar .react{
-    width: 45%;
+    width: 75%;
     animation: react 5s;
 }
+
+.skill-bar .bar .Bootstrap{
+    width: 75%;
+    animation: react 5s;
+}
+
+.skill-bar .bar .TailWind{
+    width: 75%;
+    animation: react 5s;
+}
+TailWind
 
 
 
