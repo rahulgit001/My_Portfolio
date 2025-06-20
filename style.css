@@ -1255,6 +1255,12 @@ TailWind
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.box-fl{
+    display: flex;
+}
+.boxflm{
+    display: flex;
+}
 .box{
     position: relative;
     margin: 10px 0;
