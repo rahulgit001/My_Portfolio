@@ -579,7 +579,7 @@ section {
     }
 
     .btn-box {
-        flex-direction: column;
+        /* flex-direction: column; */
         width: 100%;
         gap: 10px;
     }
