@@ -563,34 +563,34 @@ section {
 
 .tex-center h1 {
   font-size: 36px;
-  color: #2c3e50;
-  margin-bottom: 10px;
+  /* color: #2c3e50; */
+  /* margin-bottom: 10px; */
 }
 
 .tex-center h3 {
-  font-size: 24px;
-  color: #555;
+  /* font-size: 24px; */
+  /* color: #555; */
 }
 
 /* Responsive for tablets */
 @media (max-width: 768px) {
   .tex-center h1 {
-    font-size: 28px;
+    /* font-size: 28px; */
   }
 
   .tex-center h3 {
-    font-size: 20px;
+    /* font-size: 20px; */
   }
 }
 
 /* Responsive for phones */
 @media (max-width: 480px) {
   .tex-center h1 {
-    font-size: 24px;
+    /* font-size: 24px; */
   }
 
   .tex-center h3 {
-    font-size: 18px;
+    font-size: 25px;
   }
 }
 
@@ -828,8 +828,11 @@ section {
     }
 
     .change-text {
-        font-size: 1.2rem; /* Adjust font size for smaller screens */
-        width: 80%;
+        font-size: 1.2rem;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 
     .change-text h3 {
